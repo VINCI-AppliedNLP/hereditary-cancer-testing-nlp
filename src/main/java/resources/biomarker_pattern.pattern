@@ -1,0 +1,47 @@
+## Simple Modifier Before or after a concept term
+## Variants as complete patterns and biomarkers as distinct Anchors.  Right now quite redundant, but keeping separate until a more complete biomarker ontology is ironed out
+##<gov.va.vinci.types.Biomarker_Anchor/>
+## Variant/Gene Alone
+<gov.va.vinci.types.Variant_Pattern/>
+## Tp53 missense mutation 50%
+<gov.va.vinci.types.Variant_Pattern/>\s*<gov.va.vinci.types.Expression_Pattern/>
+<gov.va.vinci.types.Modifier_Term/>\s*<gov.va.vinci.types.Biomarker_Anchor/>
+<gov.va.vinci.types.Modifier_Term/>\s*<gov.va.vinci.types.Variant_Pattern/>
+<gov.va.vinci.types.Biomarker_Anchor/>\s*<gov.va.vinci.types.Modifier_Term/>
+<gov.va.vinci.types.Variant_Pattern/>\s*<gov.va.vinci.types.Modifier_Term/>
+##With an optional middle
+<gov.va.vinci.types.Modifier_Term/>\s*<gov.va.vinci.types.Middle_Term/>\s*<gov.va.vinci.types.Biomarker_Anchor/>
+<gov.va.vinci.types.Modifier_Term/>\s*<gov.va.vinci.types.Middle_Term/>\s*<gov.va.vinci.types.Variant_Pattern/>
+<gov.va.vinci.types.Biomarker_Anchor/>\s*<gov.va.vinci.types.Middle_Term/>\s*<gov.va.vinci.types.Modifier_Term/>
+<gov.va.vinci.types.Variant_Pattern/>\s*<gov.va.vinci.types.Middle_Term/>\s*<gov.va.vinci.types.Modifier_Term/>
+##LEft modifier patterns
+<gov.va.vinci.types.Modifier_Left_Concept/>\s*<gov.va.vinci.types.Variant_Pattern/>
+<gov.va.vinci.types.Modifier_Left_Concept/>\s*<gov.va.vinci.types.Biomarker_Anchor/>
+<gov.va.vinci.types.Modifier_Left_Concept/>\s*<gov.va.vinci.types.Middle_Term/>\s*<gov.va.vinci.types.Biomarker_Anchor/>
+<gov.va.vinci.types.Modifier_Left_Concept/>\s*<gov.va.vinci.types.Middle_Term/>\s*<gov.va.vinci.types.Variant_Pattern/>
+##Temporarily including Labnames by themselves as an output type until we separate these as two systems
+<gov.va.vinci.types.Lab_Term/>
+##Creating Pattern for test names as the anchor
+<gov.va.vinci.types.Test_Term/>
+<gov.va.vinci.types.Test_Term/>\s*<gov.va.vinci.types.Modifier_Term/>
+<gov.va.vinci.types.Test_Term/>\s*<gov.va.vinci.types.Middle_Term/>\s*<gov.va.vinci.types.Modifier_Term/>
+#no mutation found on hereditary test
+<gov.va.vinci.types.Modifier_Term/>\s*<gov.va.vinci.types.Test_Term/>
+##More complete Examples to clean up output
+<gov.va.vinci.types.Test_Term/>\s*<gov.va.vinci.types.Middle_Term/>\s*<gov.va.vinci.types.Modifier_Term/>\s*<gov.va.vinci.types.Biomarker_Anchor/>
+##Creating Pattern for test names as the anchor
+<gov.va.vinci.types.Lab_Term/>
+<gov.va.vinci.types.Lab_Term/>\s*<gov.va.vinci.types.Modifier_Term/>
+## No germline testing done
+<gov.va.vinci.types.Modifier_Term/>\s*<gov.va.vinci.types.Lab_Term/>
+<gov.va.vinci.types.Lab_Term/>\s*<gov.va.vinci.types.Middle_Term/>\s*<gov.va.vinci.types.Modifier_Term/>
+<gov.va.vinci.types.Modifier_Term/>\s*<gov.va.vinci.types.Lab_Term/>
+##More complete Examples to clean up output
+<gov.va.vinci.types.Lab_Term/>\s*<gov.va.vinci.types.Middle_Term/>\s*<gov.va.vinci.types.Modifier_Term/>\s*<gov.va.vinci.types.Biomarker_Anchor/>
+##Invitae: varient of uncertain significant identified in WRN
+<gov.va.vinci.types.Lab_Term/>\s*<gov.va.vinci.types.Middle_Term/>\s*<gov.va.vinci.types.Modifier_Term/>\s*<gov.va.vinci.types.Biomarker_Anchor/>
+## MH3 IHC = Expressed
+<gov.va.vinci.types.Biomarker_Anchor/>\s*<gov.va.vinci.types.Test_Term/>\s*<gov.va.vinci.types.Middle_Term/>\s*<gov.va.vinci.types.Modifier_Term/>
+## Test term with a complete negation.  Otherwise We should just get a merge of test terms
+##Foundation Medicine: no reportable mutations
+<gov.va.vinci.types.Test_Term/>\s*<gov.va.vinci.types.Middle_Term/>\s*<gov.va.vinci.types.Test_Term/>

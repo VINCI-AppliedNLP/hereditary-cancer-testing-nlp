@@ -1,0 +1,29 @@
+##
+## Individual Components
+<gov.va.vinci.types.Biomarker_Anchor/>
+<gov.va.vinci.types.HGVS_Reference/>
+<gov.va.vinci.types.HGVS_DNA/>
+<gov.va.vinci.types.HGVS_Protein/>
+<gov.va.vinci.types.Biomarker_Anchor/>
+## Various combinations together as a pattern
+## Simple Modifier Before or after a concept term
+#TP53 Mutation
+<gov.va.vinci.types.Biomarker_Anchor/>\s*<gov.va.vinci.types.Variant_Phrase_Term/>
+## Explicit Mentions with a reference  STK11 (NM 000455.4)
+<gov.va.vinci.types.Biomarker_Anchor/>\s*\(?<gov.va.vinci.types.HGVS_Reference/>
+#TP53 missense
+<gov.va.vinci.types.Biomarker_Anchor/>\s*<gov.va.vinci.types.Variant_Type_Term/>
+#TP53 missense mutation
+<gov.va.vinci.types.Biomarker_Anchor/>\s*<gov.va.vinci.types.Variant_Type_Term/>\s*<gov.va.vinci.types.Variant_Phrase_Term/>
+##Possibly adding in a separate layer/biomarker pattern.  But descriptions and patterns here when found together
+<gov.va.vinci.types.Biomarker_Anchor/>\s*\(?<gov.va.vinci.types.HGVS_DNA/>
+<gov.va.vinci.types.Biomarker_Anchor/>\s*\(?<gov.va.vinci.types.HGVS_Protein/>
+<gov.va.vinci.types.Biomarker_Anchor/>,?\s*<gov.va.vinci.types.HGVS_DNA/>,?\s*<gov.va.vinci.types.HGVS_Protein/>
+<gov.va.vinci.types.Biomarker_Anchor/>\s*\(?<gov.va.vinci.types.HGVS_Reference/>\)?
+#MSH6 c.3850dup (p.Thr1284Asnfs*5)
+<gov.va.vinci.types.Biomarker_Anchor/>,?\s*<gov.va.vinci.types.HGVS_DNA/>,?\s*\(<gov.va.vinci.types.HGVS_Protein/>\)?
+<gov.va.vinci.types.HGVS_DNA/>,?\s*\(<gov.va.vinci.types.HGVS_Protein/>\)?
+##Standard reference
+<gov.va.vinci.types.HGVS_Reference/>:<gov.va.vinci.types.HGVS_Protein/>
+<gov.va.vinci.types.HGVS_Reference/>:<gov.va.vinci.types.HGVS_DNA/>
+## Gene names not captured/explicitly stated, but found next to highly precise variant patterns

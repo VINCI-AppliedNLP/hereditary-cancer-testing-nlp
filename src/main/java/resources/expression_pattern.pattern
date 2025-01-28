@@ -1,0 +1,5 @@
+## Simple Modifier Before or after a concept term
+#KRAS 50%
+<gov.va.vinci.types.Expression_Value/>
+#KRAS expressed at 50%
+<gov.va.vinci.types.Expression_Term/>\s*<gov.va.vinci.types.Expression_Value/>
