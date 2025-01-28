@@ -1,0 +1,33 @@
+
+Set of NON-PHI example cases to illustrate system logic.  An additional file of a few more cases found in a second file for demonstration of output logic
+
+
+.-------- -------- -------- --------.
+
+RESULT OF PREVIOUS MOLECULAR TESTING:
+Genetic analysis of 5 genes known to be associated with Lynch syndrome (EPCAM, 
+MLH1, MSH2, MSH6, PMS2,) was NEGATIVE, therefore an identifiable mutation was 
+not found in any of these genes. This substantially reduces the chance the 
+Veteran has a genetic change that increases his risk for colon cancer and 
+essentially rules out Lynch syndrome.
+
+.-------- -------- -------- --------.
+
+
+Interpretation:
+No pathogenic variant in BRCA1 or BRCA2 was detected by
+full gene sequencing and deletion/duplication analysis.
+
+.-------- -------- -------- --------.
+
+No pathogenic MSH2 gene mutations were detected by either 
+bidirectional sequencing of the coding regions and intron/e
+
+
+.-----.-----.-----.-----.-----.-----.-----. Complete negation 
+.-----.-----.-----.-----.-----.-----.-----.
+No pathogenic mutations, variants of unknown significance, or 
+gross deletions or duplications were detected in the other genes 
+analyzed. In total, 18 genes were analyzed as part of this panel: 
+ATM, BARD1, BRCA1, BRCA2, BRIP1, CDH1, CHEK2, MRE11A, MUTYH, NBN, 
+NF1, PALB2, PTEN, RAD50, RAD51C, RAD51D, STK11, and TP53. 

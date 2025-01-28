@@ -1,0 +1,41 @@
+
+
+.-------- -------- -------- --------.
+
+PLAN: 
+Patient with personal history of early-onset metastatic prostate cancer, right-
+sided clear cell renal carcinoma and adenomatous colon polyps with no 
+pathogenic/likely pathogenic variants in 117 genes, including BRCA1/2. 
+
+
+.-------- -------- -------- --------.
+
+Foundation Medicine showed PIKC3A mutation.
+
+
+
+.-------- -------- -------- --------.
+
+No actionable mutations on foundation one testing from 2015 biopsy 
+
+
+
+.-------- -------- -------- --------.
+      GENOMIC FINDINGS: 
+      No reportable genomic alterations were detected 
+      14 Disease relevant genes with no reportable alterations: 
+      ATM, BARD1, BRCA1, BRCA2, BRIP1, CDK12, CHEK1, CHEK2, FANCL, 
+      PALB2, RAD51B, RAD51C
+	  
+.-------- -------- -------- --------.
+	  
+Genes included: ATM, 
+BRCA1, BRCA2, BRIP1, CHEK2, EPCAM, HOXB13, MLH1, MSH2, MSH6, NBN, PALB2, 
+PMS2, RAD51C, RAD51D, TP53
+
+DISCUSSION: The Veteran tested POSITIVE for a pathogenic ATM mutation.
+
+.-------- -------- -------- --------.
+
+Germline testing in [DATE]
+Abnormality in ATM (Exon 8)
