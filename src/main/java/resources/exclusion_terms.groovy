@@ -2,7 +2,7 @@ package resources
 
 import gov.va.vinci.leo.regex.types.RegularExpressionType
 
-/* An arbitrary name for this annotator. Used in the pipeline for the name of this annotation. */
+/* Exclusion rules for common NER gene name errors */
 name = "Simple Concept Terms"
 
 configuration {
