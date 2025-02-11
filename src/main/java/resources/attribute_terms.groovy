@@ -2,7 +2,10 @@ package resources
 
 import gov.va.vinci.leo.regex.types.RegularExpressionType
 
-/* An arbitrary name for this annotator. Used in the pipeline for the name of this annotation. */
+/* This set of rules are meant for the components and attributes related to extracted genes, but do not act as anchores. 
+
+
+*/
 name = "Biomarker Attribute Terms"
 
 configuration {
