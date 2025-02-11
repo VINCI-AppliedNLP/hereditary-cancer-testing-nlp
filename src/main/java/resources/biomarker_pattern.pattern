@@ -1,3 +1,4 @@
+## Annotation pattern annotator for complete patterns extracted including biomarker anchors, modifiers and attributes 
 ## Simple Modifier Before or after a concept term
 ## Variants as complete patterns and biomarkers as distinct Anchors.  Right now quite redundant, but keeping separate until a more complete biomarker ontology is ironed out
 ##<gov.va.vinci.types.Biomarker_Anchor/>
