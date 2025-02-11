@@ -12,11 +12,12 @@ The Biomarker Pipeline was used for the hereditary cancer publication. This pipe
 
 
 #### Citations
-
+More information regarding this system, and the overal project can be found in the citation below, 
 Please cite the following publication(s) when using this pipeline:
 
 Danielle Candelieri-Surette et al., Incorporating Structured and Unstructured Data Sources to Identify and Characterize Hereditary Cancer Testing Among Veterans With Metastatic Castration-Resistant Prostate Cancer. JCO Clin Cancer Inform 9, e2400189(2025).
-DOI:10.1200/CCI-24-00189
+
+DOI:10.1200/CCI-24-00189 
 
 ### 2. Gene Mapping Pipeline
 
@@ -29,6 +30,5 @@ The Gene Mapping Pipeline is a stripped-down version meant for extracting gene N
   - src/main/java/resources: Contains the rules and pattern annotators for the system logic
 - **data/**: Directory for storing input data files.
 - **output/**: Directory for storing output results.
-- **docs/**: Documentation related to the project.
-- **tests/**: Contains tests for the NLP code.
+
 
