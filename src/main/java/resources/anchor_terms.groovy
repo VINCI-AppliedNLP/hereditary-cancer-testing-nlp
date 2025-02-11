@@ -328,7 +328,7 @@ configuration {
 
 /*
 A place for genes known to be on prostate hereditary panels that will overlap with the
-initial HRR panels
+initial HRR panels, but not a focus of the current development/evaluation.
  */
     "Hereditary_panel" {
         expressions = [
@@ -379,9 +379,9 @@ initial HRR panels
         outputType = "gov.va.vinci.types.Biomarker_Anchor"
     }
 
-
-
-
+/*
+Catch-all for gene names that occured during development, but were not a primary focus for evaluation.
+*/
     "other_variant Term" {
         expressions = [
 
