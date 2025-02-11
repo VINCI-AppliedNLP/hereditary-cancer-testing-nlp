@@ -25,6 +25,8 @@ The Gene Mapping Pipeline is a stripped-down version meant for extracting gene N
 ## Repository Structure
 
 - **src/**: Contains the source code for the NLP pipelines.
+  - src/main/java/ae: contains the logic annotator for the final system output types
+  - src/main/java/resources: Contains the rules and pattern annotators for the system logic
 - **data/**: Directory for storing input data files.
 - **output/**: Directory for storing output results.
 - **docs/**: Documentation related to the project.
